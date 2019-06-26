@@ -32,8 +32,8 @@ workflow "Update activity" {
 action "update-gist" {
   uses = "JasonEtco/activity-box@master"
   secrets = [
-    "9d6b50aa41f485a8f9ee4a785d1857c378009a2c",
-    "9d6b50aa41f485a8f9ee4a785d1857c378009a2c"
+    "GH_PAT",
+    "GITHUB_TOKEN"
   ]
   env = {
     GH_USERNAME = "prateekguptaiiitk"
